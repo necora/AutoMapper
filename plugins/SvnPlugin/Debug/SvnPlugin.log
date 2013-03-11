@@ -1,0 +1,75 @@
+﻿Build started 08/03/2013 17:50:37.
+     1>Project "C:\Users\jesus\Desktop\Unity\GitHUbUnity\SvnPlugin\SvnPlugin.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\SvnPlugin.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\SvnPlugin.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\jesus\Desktop\Unity\GitHUbUnity\SvnPlugin\..\Common /IC:\Users\jesus\Desktop\Unity\GitHUbUnity\SvnPlugin\Source\ /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NODEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\Changes.cpp ..\Common\Command.cpp ..\Common\CommandLine.cpp ..\Common\FileSystem.cpp ..\Common\Log.cpp ..\Common\POpen.cpp ..\Common\Status.cpp ..\Common\Task.cpp ..\Common\UnityConnection.cpp ..\Common\Utility.cpp ..\Common\VersionedAsset.cpp Source\SvnPlugin_OSX.cpp Source\SvnPlugin_WIN.cpp Source\SvnTask.cpp
+         SvnTask.cpp
+         SvnPlugin_WIN.cpp
+         SvnPlugin_OSX.cpp
+         VersionedAsset.cpp
+         Utility.cpp
+         UnityConnection.cpp
+         Task.cpp
+         Status.cpp
+         POpen.cpp
+         Log.cpp
+         FileSystem.cpp
+         CommandLine.cpp
+         Command.cpp
+         Changes.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SubversionPlugin.exe.embed.manifest.res" Debug\SubversionPlugin_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.exe" /INCREMENTAL /NOLOGO shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SubversionPlugin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.lib" /MACHINE:X86 Debug\SubversionPlugin.exe.embed.manifest.res
+         Debug\Changes.obj
+         Debug\Command.obj
+         Debug\CommandLine.obj
+         Debug\FileSystem.obj
+         Debug\Log.obj
+         Debug\POpen.obj
+         Debug\Status.obj
+         Debug\Task.obj
+         Debug\UnityConnection.obj
+         Debug\Utility.obj
+         Debug\VersionedAsset.obj
+         Debug\SvnPlugin_OSX.obj
+         Debug\SvnPlugin_WIN.obj
+         Debug\SvnTask.obj
+       Manifest:
+         Deleting file "Debug\SubversionPlugin.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SubversionPlugin.exe.embed.manifest" /manifest Debug\SubversionPlugin.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SubversionPlugin.exe.embed.manifest.res" Debug\SubversionPlugin_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.exe" /INCREMENTAL /NOLOGO shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SubversionPlugin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.lib" /MACHINE:X86 Debug\SubversionPlugin.exe.embed.manifest.res
+         Debug\Changes.obj
+         Debug\Command.obj
+         Debug\CommandLine.obj
+         Debug\FileSystem.obj
+         Debug\Log.obj
+         Debug\POpen.obj
+         Debug\Status.obj
+         Debug\Task.obj
+         Debug\UnityConnection.obj
+         Debug\Utility.obj
+         Debug\VersionedAsset.obj
+         Debug\SvnPlugin_OSX.obj
+         Debug\SvnPlugin_WIN.obj
+         Debug\SvnTask.obj
+         SvnPlugin.vcxproj -> C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.exe
+       PostBuildEvent:
+         echo f | xcopy "C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.exe" "C:\Users\jesus\Desktop\Unity\GitHUbUnity\Build\Win32\SubversionPlugin.exe" /Y
+         :VCEnd
+         C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\SubversionPlugin.exe
+         1 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "Debug\SvnPlugin.unsuccessfulbuild".
+         Touching "Debug\SvnPlugin.lastbuildstate".
+     1>Done Building Project "C:\Users\jesus\Desktop\Unity\GitHUbUnity\SvnPlugin\SvnPlugin.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.75
