@@ -1,0 +1,163 @@
+﻿Build started 08/03/2013 17:50:37.
+     1>Project "C:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\P4Plugin.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\P4Plugin.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\P4Plugin.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\..\Common /IC:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\Source\ /IC:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\Source\r12.2\include\P4 /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NODEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\Changes.cpp ..\Common\Command.cpp ..\Common\CommandLine.cpp ..\Common\FileSystem.cpp ..\Common\Log.cpp ..\Common\POpen.cpp ..\Common\Status.cpp ..\Common\Task.cpp ..\Common\UnityConnection.cpp ..\Common\Utility.cpp ..\Common\VersionedAsset.cpp Source\P4AddCommand.cpp Source\P4ChangeDescriptionCommand.cpp Source\P4ChangeMoveCommand.cpp Source\P4ChangesCommand.cpp Source\P4ChangeStatusCommand.cpp Source\P4CheckoutCommand.cpp Source\P4Command.cpp Source\P4ConfigCommand.cpp Source\P4DeleteChangesCommand.cpp Source\P4DeleteCommand.cpp Source\P4DownloadCommand.cpp Source\P4ExitCommand.cpp Source\P4FileSetBaseCommand.cpp Source\P4GetLatestCommand.cpp Source\P4IncomingChangeAssetsCommand.cpp Source\P4IncomingCommand.cpp Source\P4LockCommand.cpp Source\P4LoginCommand.cpp Source\P4MoveCommand.cpp Source\P4Plugin_WIN.cpp Source\P4QueryConfigParametersCommand.cpp Source\P4ResolveCommand.cpp Source\P4RevertChangesCommand.cpp Source\P4RevertCommand.cpp Source\P4SpecCommand.cpp Source\P4StatusBaseCommand.cpp Source\P4StatusCommand.cpp Source\P4SubmitCommand.cpp Source\P4Task.cpp Source\P4UnlockCommand.cpp Source\P4Utility.cpp
+         P4Utility.cpp
+         P4UnlockCommand.cpp
+         P4Task.cpp
+         P4SubmitCommand.cpp
+         P4StatusCommand.cpp
+         P4StatusBaseCommand.cpp
+         P4SpecCommand.cpp
+         P4RevertCommand.cpp
+         P4RevertChangesCommand.cpp
+         P4ResolveCommand.cpp
+         P4QueryConfigParametersCommand.cpp
+         P4Plugin_WIN.cpp
+         P4MoveCommand.cpp
+         P4LoginCommand.cpp
+         P4LockCommand.cpp
+         P4IncomingCommand.cpp
+         P4IncomingChangeAssetsCommand.cpp
+         P4GetLatestCommand.cpp
+         P4FileSetBaseCommand.cpp
+         P4ExitCommand.cpp
+         Generating Code...
+         Compiling...
+         P4DownloadCommand.cpp
+         P4DeleteCommand.cpp
+         P4DeleteChangesCommand.cpp
+         P4ConfigCommand.cpp
+         P4Command.cpp
+         P4CheckoutCommand.cpp
+         P4ChangeStatusCommand.cpp
+         P4ChangesCommand.cpp
+         P4ChangeMoveCommand.cpp
+         P4ChangeDescriptionCommand.cpp
+         P4AddCommand.cpp
+         VersionedAsset.cpp
+         Utility.cpp
+         UnityConnection.cpp
+         Task.cpp
+         Status.cpp
+         POpen.cpp
+         Log.cpp
+         FileSystem.cpp
+         CommandLine.cpp
+         Generating Code...
+         Compiling...
+         Command.cpp
+         Changes.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PerforcePlugin.exe.embed.manifest.res" Debug\PerforcePlugin_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\Source\r12.2\lib\win32debug libclient.lib libp4sslstub.lib librpc.lib libsupp.lib ws2_32.lib shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PerforcePlugin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.lib" /MACHINE:X86 Debug\PerforcePlugin.exe.embed.manifest.res
+         Debug\Changes.obj
+         Debug\Command.obj
+         Debug\CommandLine.obj
+         Debug\FileSystem.obj
+         Debug\Log.obj
+         Debug\POpen.obj
+         Debug\Status.obj
+         Debug\Task.obj
+         Debug\UnityConnection.obj
+         Debug\Utility.obj
+         Debug\VersionedAsset.obj
+         Debug\P4AddCommand.obj
+         Debug\P4ChangeDescriptionCommand.obj
+         Debug\P4ChangeMoveCommand.obj
+         Debug\P4ChangesCommand.obj
+         Debug\P4ChangeStatusCommand.obj
+         Debug\P4CheckoutCommand.obj
+         Debug\P4Command.obj
+         Debug\P4ConfigCommand.obj
+         Debug\P4DeleteChangesCommand.obj
+         Debug\P4DeleteCommand.obj
+         Debug\P4DownloadCommand.obj
+         Debug\P4ExitCommand.obj
+         Debug\P4FileSetBaseCommand.obj
+         Debug\P4GetLatestCommand.obj
+         Debug\P4IncomingChangeAssetsCommand.obj
+         Debug\P4IncomingCommand.obj
+         Debug\P4LockCommand.obj
+         Debug\P4LoginCommand.obj
+         Debug\P4MoveCommand.obj
+         Debug\P4Plugin_WIN.obj
+         Debug\P4QueryConfigParametersCommand.obj
+         Debug\P4ResolveCommand.obj
+         Debug\P4RevertChangesCommand.obj
+         Debug\P4RevertCommand.obj
+         Debug\P4SpecCommand.obj
+         Debug\P4StatusBaseCommand.obj
+         Debug\P4StatusCommand.obj
+         Debug\P4SubmitCommand.obj
+         Debug\P4Task.obj
+         Debug\P4UnlockCommand.obj
+         Debug\P4Utility.obj
+       Manifest:
+         Deleting file "Debug\PerforcePlugin.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PerforcePlugin.exe.embed.manifest" /manifest Debug\PerforcePlugin.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PerforcePlugin.exe.embed.manifest.res" Debug\PerforcePlugin_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\Source\r12.2\lib\win32debug libclient.lib libp4sslstub.lib librpc.lib libsupp.lib ws2_32.lib shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PerforcePlugin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.lib" /MACHINE:X86 Debug\PerforcePlugin.exe.embed.manifest.res
+         Debug\Changes.obj
+         Debug\Command.obj
+         Debug\CommandLine.obj
+         Debug\FileSystem.obj
+         Debug\Log.obj
+         Debug\POpen.obj
+         Debug\Status.obj
+         Debug\Task.obj
+         Debug\UnityConnection.obj
+         Debug\Utility.obj
+         Debug\VersionedAsset.obj
+         Debug\P4AddCommand.obj
+         Debug\P4ChangeDescriptionCommand.obj
+         Debug\P4ChangeMoveCommand.obj
+         Debug\P4ChangesCommand.obj
+         Debug\P4ChangeStatusCommand.obj
+         Debug\P4CheckoutCommand.obj
+         Debug\P4Command.obj
+         Debug\P4ConfigCommand.obj
+         Debug\P4DeleteChangesCommand.obj
+         Debug\P4DeleteCommand.obj
+         Debug\P4DownloadCommand.obj
+         Debug\P4ExitCommand.obj
+         Debug\P4FileSetBaseCommand.obj
+         Debug\P4GetLatestCommand.obj
+         Debug\P4IncomingChangeAssetsCommand.obj
+         Debug\P4IncomingCommand.obj
+         Debug\P4LockCommand.obj
+         Debug\P4LoginCommand.obj
+         Debug\P4MoveCommand.obj
+         Debug\P4Plugin_WIN.obj
+         Debug\P4QueryConfigParametersCommand.obj
+         Debug\P4ResolveCommand.obj
+         Debug\P4RevertChangesCommand.obj
+         Debug\P4RevertCommand.obj
+         Debug\P4SpecCommand.obj
+         Debug\P4StatusBaseCommand.obj
+         Debug\P4StatusCommand.obj
+         Debug\P4SubmitCommand.obj
+         Debug\P4Task.obj
+         Debug\P4UnlockCommand.obj
+         Debug\P4Utility.obj
+         P4Plugin.vcxproj -> C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.exe
+       PostBuildEvent:
+         echo f | xcopy "C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.exe" "C:\Users\jesus\Desktop\Unity\GitHUbUnity\Build\Win32\PerforcePlugin.exe" /Y
+         :VCEnd
+         C:\Users\jesus\Desktop\Unity\GitHUbUnity\Debug\PerforcePlugin.exe
+         1 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "Debug\P4Plugin.unsuccessfulbuild".
+         Touching "Debug\P4Plugin.lastbuildstate".
+     1>Done Building Project "C:\Users\jesus\Desktop\Unity\GitHUbUnity\P4Plugin\P4Plugin.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.27
