@@ -1,3 +1,4 @@
+<!--Changed in gitParallel branch -->
 <img src="http://automapper.org/img/white_logo.png" alt="AutoMapper" width="498" height="51">
 ================================
 
