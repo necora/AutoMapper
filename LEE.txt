@@ -1,0 +1,1 @@
+FICHERO LEEME, creado en git con permisos de escritura para el user, y de lectura y ejecucion pa to kiski
